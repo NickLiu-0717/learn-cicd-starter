@@ -13,7 +13,7 @@ func TestGetAPI(t *testing.T) {
 	if err != nil {
 		t.Fatal("error with", err)
 	}
-	if result != "my-random-apikey1" {
+	if result != "my-random-apikey" {
 		t.Fatalf("expected: %v, got: %v", apikey, result)
 	}
 
